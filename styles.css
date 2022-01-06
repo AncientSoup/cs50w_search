@@ -1,4 +1,39 @@
 .googlelogo {
-    text-align: center;
-    color: aqua;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 300px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -190px;
+}
+
+.searchbarpos {
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    width: 300px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -190px;
+}
+
+#searchbar {
+    border-radius: 25px;
+    border: 2px solid rgb(82, 78, 78);
+    padding: 20px; 
+    width: 500px;
+    height: 15px; 
+}
+
+#button1 {
+    position: absolute;
+    left: 37%;
+    top: 60%;
+}
+
+#button2 {
+    position: absolute;
+    left: 80%;
+    top: 60%;
 }
