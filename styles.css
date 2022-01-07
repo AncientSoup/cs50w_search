@@ -5,19 +5,33 @@
     width: 300px;
     height: 100px;
     margin-top: -100px;
-    margin-left: -170px;
+    margin-left: -167px;
+}
+
+.upperbuttons {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 300px;
+    margin-top: 40px;
 }
 
 .searchbarpos {
     position: absolute;
-    left: 43%;
+    left: 42%;
     top: 60%;
     width: 300px;
     height: 100px;
     margin-top: -100px;
-    margin-left: -180px;
+    margin-left: -165px;
 }
 
+.footer {
+    position: absolute;
+    top: 90%;
+    color: rgb(238, 56, 56);
+    right: 47%;
+}
 #searchbar {
     border-radius: 25px;
     border: 2px solid rgb(82, 78, 78);
@@ -28,12 +42,18 @@
 
 #button1 {
     position: absolute;
-    left: 37%;
+    left: 35%;
     top: 60%;
 }
 
 #button2 {
     position: absolute;
-    left: 80%;
+    left: 85%;
+    top: 60%;
+}
+
+#imagesearch {
+    position: absolute;
+    left: 70%;
     top: 60%;
 }
