@@ -18,6 +18,7 @@
 
 .searchbarpos {
     position: absolute;
+    display: flex;
     left: 42%;
     top: 60%;
     width: 300px;
@@ -54,6 +55,7 @@
 
 #imagesearch {
     position: absolute;
-    left: 70%;
+    display: flex;
+    left: 65%;
     top: 60%;
 }
