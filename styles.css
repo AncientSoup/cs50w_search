@@ -1,18 +1,18 @@
 .googlelogo {
     position: absolute;
+    font-weight: 600;
     left: 50%;
     top: 40%;
     width: 300px;
     height: 100px;
     margin-top: -100px;
-    margin-left: -167px;
+    margin-left: -160px;
 }
 
 .upperbuttons {
     position: absolute;
     top: 0;
     right: 5%;
-    width: 300px;
     margin-top: 40px;
 }
 
@@ -24,15 +24,16 @@
     width: 300px;
     height: 100px;
     margin-top: -100px;
-    margin-left: -165px;
+    margin-left: -175px;
 }
 
 .footer {
     position: absolute;
     top: 90%;
     color: rgb(238, 56, 56);
-    right: 47%;
+    right: 48%;
 }
+
 #searchbar {
     border-radius: 25px;
     border: 2px solid rgb(82, 78, 78);
@@ -56,6 +57,82 @@
 #imagesearch {
     position: absolute;
     display: flex;
-    left: 65%;
+    left: 60%;
     top: 60%;
+}
+
+/* For mobile view (not the very best way to implement for sure) */
+
+@media only screen and (max-width: 768px) {
+    [class*="searchbarpos"] {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div.searchbarpos {
+        width: 1em;
+        margin-left: -160px;
+    }
+    
+    div.upperbuttons {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        margin-top: 5px;
+    }
+    
+    div.googlelogo {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        margin-top: -120px;
+        margin-left: -150px;
+    }
+
+    #mobilelogo {
+        position: absolute;
+        left: 20%;
+        top: 25%;
+    }
+    
+    #searchbar {
+        position: absolute;
+        left: 250%;
+        width: 300px;
+        border-radius: 25px;
+        border: 2px solid rgb(82, 78, 78);
+        padding: 15px; 
+        height: 5px;
+    }
+
+    #button1 {
+        font-size: 15px;
+        position: absolute;
+        left: 50px;
+        top: 60%;
+    }
+
+    #button2 {
+        font-size: 15px;
+        position: absolute;
+        left: 210px;
+        top: 60%;
+    }
+
+    #imagesearch {
+        font-size: 15px;
+        position: absolute;
+        left: 135px;
+        top: 60%;
+    }
+
+    #mobilefooter {
+        position: absolute;
+        width: 170px;
+        left: 30%;
+        top: 90%;
+        color: rgb(238, 56, 56);
+    }
 }
