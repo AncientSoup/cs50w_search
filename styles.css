@@ -34,6 +34,16 @@
     right: 48%;
 }
 
+.advfields {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 300px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -175px;
+}
+
 #searchbar {
     border-radius: 25px;
     border: 2px solid rgb(82, 78, 78);
@@ -56,12 +66,30 @@
 
 #imagesearch {
     position: absolute;
-    display: flex;
     left: 60%;
     top: 60%;
 }
 
-/* For mobile view (not the very best way to implement for sure) */
+#advanced {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+
+#advtext {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+#advbutton {
+    position: absolute;
+    display: flex;
+    left: 20%;
+    top: 320px;
+}
+
+/* For mobile view (not the best way to implement for sure) */
 
 @media only screen and (max-width: 768px) {
     [class*="searchbarpos"] {
@@ -89,6 +117,10 @@
         height: 30px;
         margin-top: -120px;
         margin-left: -150px;
+    }
+
+    div.advfields {
+        size: 20;
     }
 
     #mobilelogo {
