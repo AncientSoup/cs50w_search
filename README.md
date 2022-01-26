@@ -1,5 +1,5 @@
 # CS50W Project 0 - Search
-> Status: completed & submitted
+> Status: completed & submitted (Pass)
   
 ### Description:
 * Source code for a front-end design that imitates Google's own [search page](https://www.google.com/).  
