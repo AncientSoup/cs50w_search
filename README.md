@@ -1,21 +1,9 @@
 # CS50W Project 0 - Search
-Project 1/6 for CS50W
-> Status: completed & submitted (Pass)
+Status: completed & submitted (Pass)
   
 ### Description:
-* Source code for a front-end design that imitates Google's own [search page](https://www.google.com/).  
+* [Project specification](https://cs50.harvard.edu/web/2020/projects/0/search/)
 * Languages used are only HTML and CSS. Uses Google for the back-end service.
-  
-### Contents:
-* Aesthetics that are quite similar to Google's
-* Homepage for searching
-* Google images for searching only images
-* Advanced search which can:
-    * Search results with the words that you typed,
-    * Search results similar to what you typed,
-    * Search results only the words that you typed,
-    * Search results that are not related to the words that you typed.
-* I'm feeling lucky function on search page, similar to Google's.
   
 ### About CS50W
 CS50W is a continuation of [CS50](https://cs50.harvard.edu/), diving more deeply into the design and implementaion of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience.  
