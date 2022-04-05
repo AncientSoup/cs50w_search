@@ -2,7 +2,7 @@
 Status: completed & submitted (Pass)
   
 ## Description:
-* [Project specification](https://cs50.harvard.edu/web/2020/projects/0/search/)
+* [Project specification](https://cs50.harvard.edu/web/2020/projects/0/search/#specification)
 * Uses Google for the back-end service.
   
 ## Note on academic honesty
